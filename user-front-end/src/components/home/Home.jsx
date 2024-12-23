@@ -1,15 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './home.css'; // Import the CSS file
+import "./home.css"; // Import the CSS file
 
 const LandingPage = () => {
   return (
     <div>
-      
-      <section
-        className="hero"
-        style={{ backgroundImage: "url('Hero.jpeg')" }}
-      >
+      <section className="hero" style={{ backgroundImage: "url('Hero.jpeg')" }}>
         <div className="hero-overlay">
           <div className="text-center">
             <h1>Welcome to the Ganesh Museum</h1>
@@ -86,7 +82,8 @@ const LandingPage = () => {
           <h2>Testimonials</h2>
           <div className="mt-10">
             <p className="italic">
-              “A beautiful tribute to Lord Ganesh! The exhibits are enlightening.”
+              “A beautiful tribute to Lord Ganesh! The exhibits are
+              enlightening.”
             </p>
             <p className="italic mt-4">
               “A must-visit for anyone interested in culture and art!”

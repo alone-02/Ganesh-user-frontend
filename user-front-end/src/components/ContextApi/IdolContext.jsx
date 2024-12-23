@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState, createContext } from "react";
-import { useEffect} from "react";
+import { useEffect } from "react";
 const IdolContext = createContext();
 
 function IdolProvider({ children }) {
